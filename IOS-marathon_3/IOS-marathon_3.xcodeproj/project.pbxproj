@@ -13,6 +13,7 @@
 		956F7E282B73958000196498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956F7E262B73958000196498 /* Main.storyboard */; };
 		956F7E2A2B73958300196498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956F7E292B73958300196498 /* Assets.xcassets */; };
 		956F7E2D2B73958300196498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956F7E2B2B73958300196498 /* LaunchScreen.storyboard */; };
+		956F7E362B73981F00196498 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F7E352B73981F00196498 /* Extension+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		956F7E292B73958300196498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956F7E2C2B73958300196498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		956F7E2E2B73958300196498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956F7E352B73981F00196498 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		956F7E1F2B73958000196498 /* IOS-marathon_3 */ = {
 			isa = PBXGroup;
 			children = (
+				956F7E342B73981000196498 /* Extension */,
 				956F7E202B73958000196498 /* AppDelegate.swift */,
 				956F7E222B73958000196498 /* SceneDelegate.swift */,
 				956F7E242B73958000196498 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				956F7E2E2B73958300196498 /* Info.plist */,
 			);
 			path = "IOS-marathon_3";
+			sourceTree = "<group>";
+		};
+		956F7E342B73981000196498 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				956F7E352B73981F00196498 /* Extension+UIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				956F7E252B73958000196498 /* ViewController.swift in Sources */,
 				956F7E212B73958000196498 /* AppDelegate.swift in Sources */,
+				956F7E362B73981F00196498 /* Extension+UIView.swift in Sources */,
 				956F7E232B73958000196498 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
